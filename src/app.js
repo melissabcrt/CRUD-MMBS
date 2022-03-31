@@ -17,7 +17,7 @@ app.set('views', path.join(__dirname, 'views'));
 //middlewares
 app.use(morgan('dev'));
 app.use(myConnection(mysql,{
-    host:'sql10.freemysqlhosting.net',
+    host:'melissa',
     user:'sql10469749',
     password:'BsVkQUs5hW',
     port: 3306,
